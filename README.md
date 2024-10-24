@@ -24,7 +24,7 @@ Installation
 
     bash
 
-git clone https://github.com/Asefeh-J/awesomeproject.git
+git clone https://github.com/Asefeh-J/Restaurant-App.git
 cd awesomeproject
 
 Install the Dependencies:
