@@ -21,7 +21,7 @@ const Welcome = ({navigation}) => {
       <Pressable onPress={() => navigation.navigate('Menu')}> 
         <Text style={styles.buttonText}>View Menu</Text> 
      </Pressable>
-      {/* <Image
+       <Image
         style={styles.image}
         source={require('../img/Picture1.png')}
         resizeMode="cover"
@@ -48,7 +48,7 @@ const Welcome = ({navigation}) => {
         resizeMode="cover"
         accessible={true}
         accessibilityLabel={'Picture4'}
-      /> */}
+      /> 
     </ScrollView>
   );
 };

@@ -116,10 +116,9 @@ function App() {
       {isLoggedIn ? (
         <Drawer.Navigator screenOptions={{ drawerPosition: 'right' }}>
           <Drawer.Screen name="Welcome" component={Welcome} />
-          <Drawer.Screen
-            name="Menu"
-            component={() => <MenuItems token={token} />}
-          />
+          <Drawer.Screen name="Menu" component={() => <MenuItems token={token} />}/>
+          <Drawer.Screen name="Feedbak" component={FeedbackForm} />
+
         </Drawer.Navigator>
       ) : (
         <AuthStackScreen isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} setToken={setToken} />
